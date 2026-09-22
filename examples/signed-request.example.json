@@ -1,0 +1,7 @@
+{
+  "client_id": "service-client",
+  "timestamp": 1700000000,
+  "nonce": "random-one-time-value",
+  "idempotency_key": "operation-unique-id",
+  "signature": "HMAC-SHA256(redacted canonical request)"
+}
